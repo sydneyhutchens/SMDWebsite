@@ -13,3 +13,12 @@ h1 {
     padding-top: 10px;
 
 }
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-container img {
+    margin-right: 20px; /* Adjust the space between the image and heading */
+}
