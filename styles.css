@@ -11,6 +11,7 @@ img {
 h1 {
     text-align: center;
     padding-top: 10px;
+    font: georgia;
 
 }
 
@@ -21,4 +22,25 @@ h1 {
 
 .header-container img {
     margin-right: 20px; 
+}
+
+.nav-links {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 40px;
+    margin: 0; /* Remove default margin */
+}
+
+.nav-links li {
+    display: inline; /* Make list items display inline */
+    margin-right: 30px; /* Adjust spacing between links */
+}
+
+.nav-links li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set link color */
+    font-weight: bold; /* Make the links bold */
+}
+
+.nav-links li a:hover {
+    color: #007BFF; /* Change color on hover */
 }
